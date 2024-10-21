@@ -2,7 +2,7 @@
 body {
   font-family: "Freckle Face", system-ui;
   background-color: #000000;
-  color: #9945FF;
+  color: #9e9d9f;
   margin: 0;
   padding: 0;
   overflow-x: hidden;  
@@ -36,13 +36,13 @@ canvas {
   gap: 1.5rem;
   align-items: center;
   justify-content: center;
-  color: #9945FF;
+  color: #9e9d9f;
 }
 
 /* Add any additional styles here */
 #typewriter {
   font-size: 4rem;
-  color: #14F195;
+  color: #cdd4d1;
   text-shadow: 2px 2px black;
   white-space: nowrap;
   overflow: hidden; /* Ensures the text is hidden until it's fully typed */
@@ -56,7 +56,7 @@ canvas {
 
 @keyframes blink-caret {
   from, to { border-color: transparent; }
-  50% { border-color: #14F195; }
+  50% { border-color: #dbdcdb; }
 }
 
 /* Add CSS for mobile responsiveness */
@@ -78,7 +78,7 @@ canvas {
 .line-box .line {
   height: 20px;
   border-radius: 20px;
-  background: #9945FF ;
+  background: #a9a9aa ;
   animation: loading 2.5s forwards cubic-bezier(0,0,0,0);
 }
 
@@ -201,7 +201,7 @@ canvas {
 }
 
 .-green {
-  color: #14F195;
+  color: #969897;
   font-weight: 900;
 }
 
@@ -254,7 +254,7 @@ canvas {
 .logo span {
   font-size: 2.4rem;
   font-weight: bold;
-  color: #14F195;
+  color: #a5a5a5;
   text-shadow: 2px 2px black;
 }
 
@@ -273,7 +273,7 @@ canvas {
   text-decoration: none;
   font-size: 1.4rem;
   font-weight: bold;
-  color: #14F195;
+  color: #b7bcba;
   text-shadow: 2px 2px black;
 }
 
@@ -289,10 +289,10 @@ canvas {
   padding: 10px 20px;
   margin: 0 5px;
   border-radius: 20px;
-  border-top: 2px solid #9945FF;
-  border-left: 2px solid #9945FF;
-  border-right: 2px solid #9945FF;
-  border-bottom: 0.5rem solid #14F195;
+  border-top: 2px solid #9e9d9f;
+  border-left: 2px solid #9e9d9f;
+  border-right: 2px solid #9e9d9f;
+  border-bottom: 0.5rem solid #cfd0d0;
   border-radius: 3rem;
   text-align: center;
 }
@@ -389,10 +389,10 @@ p {
   padding: 20px;
   width: 160px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  border-top: 2px solid #9945FF;
-  border-left: 2px solid #9945FF;
-  border-right: 2px solid #9945FF;
-  border-bottom: 0.5rem solid #14F195;
+  border-top: 2px solid #9e9d9f;
+  border-left: 2px solid #9e9d9f;
+  border-right: 2px solid #9e9d9f;
+  border-bottom: 0.5rem solid #dedfdf;
   border-radius: 3rem;
   text-align: center;
   margin-bottom: 10px;
@@ -442,10 +442,10 @@ p {
 .content-section {
   padding: 20px;
   border-radius: 15px;
-  border-top: 2px solid #9945FF;
-  border-left: 2px solid #9945FF;
-  border-right: 2px solid #9945FF;
-  border-bottom: 0.5rem solid #14F195;
+  border-top: 2px solid #9e9d9f;
+  border-left: 2px solid #9e9d9f;
+  border-right: 2px solid #9e9d9f;
+  border-bottom: 0.5rem solid #9c9c9c;
   text-align: left;
 }
 
@@ -476,7 +476,7 @@ p {
 
 /* CA Styles */
 .ca {
-  color: #14F195; /* Text color */
+  color: #eff1f0; /* Text color */
   font-weight: 600;
   font-size: 1.2em; /* Adjust as needed to match the button */
   background-image: linear-gradient(
@@ -583,12 +583,12 @@ p {
     from var(--mask, 0deg),
     transparent 0%,
     transparent 10%,
-    #9945FF 36%, /* Adjusted for #9945FF */
-    #9945FF 45%, /* Adjusted for #9945FF */
+    #8e8e8e 36%, /* Adjusted for #9945FF */
+    #8e8e8e 45%, /* Adjusted for #9945FF */
     transparent 50%,
     transparent 60%,
-    #9945FF 85%, /* Adjusted for #9945FF */
-    #9945FF 95%, /* Adjusted for #9945FF */
+    #8e8e8e 85%, /* Adjusted for #9945FF */
+    #8e8e8e 95%, /* Adjusted for #9945FF */
     transparent 100%
   );
   mask-size: cover;
@@ -613,7 +613,7 @@ p {
 /* Header Area Styles */
 .header-area h1 {
   font-size: 4rem;
-  color: #14F195; /* Warm coral color */
+  color: #9fa0a0; /* Warm coral color */
   text-shadow: 2px 2px black;
   margin-bottom: 20px;
   text-align: center;
@@ -627,11 +627,11 @@ p {
   text-shadow: 2px 2px black;
   border-bottom-width: 1px; /* Slightly thinner bottom border */
   border-radius: 15px;
-  border-top: 2px solid #9945FF;
-  border-left: 2px solid #9945FF;
-  border-right: 2px solid #9945FF;
-  border-bottom: 0.5rem solid #14F195;
-  color: #14F195;
+  border-top: 2px solid #c4c3c5;
+  border-left: 2px solid #c4c3c5;
+  border-right: 2px solid #c4c3c5;
+  border-bottom: 0.5rem solid #f4f5f5;
+  color: #f1f6f4;
 }
 
 /* Content Styles */
@@ -776,7 +776,7 @@ footer {
   padding: 20px;
   text-align: center;
   color: #ffffff;
-  border-top: 1px solid #9945FF;
+  border-top: 1px solid #a7a6a8;
 }
 
 .containerfooter {
@@ -795,7 +795,7 @@ footer {
 }
 
 .column h4 {
-  color: #14F195;
+  color: #5e605f;
   margin-bottom: 15px;
   font-size: 20px;
 }
@@ -817,11 +817,11 @@ footer {
 }
 
 .column ul li a:hover {
-  color: #9945FF;
+  color: #7f7d81;
 }
 
 .policy-id {
-  color: #14F195;
+  color: #aaaaa5;
   margin-top: 10px;
   font-size: 19px;
 }
@@ -831,7 +831,7 @@ footer {
 }
 
 .copyright {
-  color: #14F195;
+  color: #aaaaa5;
   margin-top: 30px;
   font-size: 19px;
 }
@@ -850,11 +850,11 @@ footer {
 }
 
 .social-icons a:hover {
-  color: #9945FF;
+  color: #aaaaa5;
 }
 
 .highlight {
-  color: #14F195; /* Choose a color that you prefer */
+  color: #d7dedb; /* Choose a color that you prefer */
 }
 
 
